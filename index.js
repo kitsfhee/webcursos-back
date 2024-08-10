@@ -1,4 +1,5 @@
 // hola
+<<<<<<< HEAD
 const dotenv = require('dotenv').config()
 const express = require('express')
 const app = express()
@@ -11,3 +12,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`)
 })
+=======
+>>>>>>> 228d64a874a028efc55998e70fabe886fbce25c6
